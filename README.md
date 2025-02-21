@@ -3,7 +3,7 @@
   <h1>👋 Willkommen in meinem digitalen Zuhause</h1>
 </div>
 
-![Besucher](https://visitor-badge.laobi.icu/badge?page_id=mikestraczek.mikestraczek)
+![Besucher](https://visitor-badge.laobi.icu/badge?page_id=mikestraczek)
 
 ## 🛠️ Technologien & Werkzeuge
 
