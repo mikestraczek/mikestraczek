@@ -14,7 +14,7 @@
 
 ## 📊 GitHub Statistiken
 
-![GitHub Statistiken](https://github-readme-stats.vercel.app/api?username=IhrGitHubUsername&show_icons=true&theme=dracula)
+![GitHub Statistiken](https://github-readme-stats.vercel.app/api?username=mikestraczek&show_icons=true&theme=dracula)
 
 ## 🌱 Aktuelle Projekte
 
