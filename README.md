@@ -3,7 +3,11 @@
   <h1>👋 Willkommen in meinem digitalen Zuhause</h1>
 </div>
 
-![Besucher](https://visitor-badge.laobi.icu/badge?page_id=mikestraczek.mikestraczek&format=true)
+![Besucher](https://visitor-badge.laobi.icu/badge?page_id=mikestraczek.mikestraczek)
+
+## 🏠 Meine digitale Heimat
+
+[![Meine Website](https://img.shields.io/badge/-straczek.de-4CAF50?style=flat-square&logo=googlechrome&logoColor=white)](https://straczek.de)
 
 ## 🛠️ Technologien & Werkzeuge
 
