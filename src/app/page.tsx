@@ -44,22 +44,33 @@ export default function Home() {
           }}
         />
 
-        <m.h1
-          className="relative z-10 text-2xl font-black sm:text-4xl lg:text-5xl"
-          initial={{
-            opacity: 0,
-            scale: 0,
-          }}
-          animate={{
-            opacity: 0.7,
-            scale: 1,
-          }}
-          transition={{ duration: 0.6 }}
-        >
-          Mike Straczek
-        </m.h1>
+        <div className="absolute z-30 flex h-full w-full flex-col items-center justify-center">
+          <m.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 0.6 }}
+            transition={{ delay: 0.5 }}
+            className="mb-4 text-sm text-slate-400"
+          >
+            Frontend Developer
+          </m.p>
 
-        <div className="absolute bottom-8 z-10 flex gap-6">
+          <m.h1
+            className="text-2xl font-black text-white/90 mix-blend-exclusion sm:text-4xl lg:text-5xl"
+            initial={{
+              opacity: 0,
+              scale: 0,
+            }}
+            animate={{
+              opacity: 0.9,
+              scale: 1,
+            }}
+            transition={{ duration: 0.6 }}
+          >
+            Mike Straczek
+          </m.h1>
+        </div>
+
+        <div className="absolute bottom-8 z-30 flex gap-6">
           <m.a
             href="https://github.com/mikestraczek"
             target="_blank"
@@ -82,15 +93,6 @@ export default function Home() {
             LinkedIn
           </m.a>
         </div>
-
-        <m.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 0.6 }}
-          transition={{ delay: 0.5 }}
-          className="absolute top-8 text-sm text-slate-400"
-        >
-          Frontend Developer
-        </m.p>
       </div>
     </main>
   );
