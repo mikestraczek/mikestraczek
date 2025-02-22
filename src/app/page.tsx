@@ -1,7 +1,8 @@
 "use client";
 
-import { useEffect } from "react";
 import { motion as m, useMotionValue, useSpring } from "framer-motion";
+import { useEffect } from "react";
+
 import { ParticleBackground } from "@/components/ParticleBackground";
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
     };
 
     window.addEventListener("mousemove", moveCursor);
+
     return () => window.removeEventListener("mousemove", moveCursor);
   }, [cursorX, cursorY]);
 
@@ -35,15 +37,15 @@ export default function Home() {
         <ParticleBackground />
 
         <div
-          className="animate-gradient morph-blob absolute top-1/2 left-1/2 h-[60vh] w-[60vh] -translate-x-1/2 -translate-y-1/2 opacity-30 blur-2xl"
+          className="morph-blob absolute inset-0 h-[90dvh] w-[90dvh] opacity-30 blur-2xl"
           style={{
             background:
-              "radial-gradient(circle, rgba(234,88,12,0.4) 0%, rgba(225,29,72,0.35) 50%, rgba(147,51,234,0.3) 100%)",
+              "radial-gradient(circle at center, rgba(234,88,12,0.4) 0%, rgba(225,29,72,0.35) 50%, rgba(147,51,234,0.3) 100%)",
           }}
         />
 
         <m.h1
-          className="glow:text-red-400 relative z-10 text-2xl font-black sm:text-4xl lg:text-5xl"
+          className="relative z-10 text-2xl font-black sm:text-4xl lg:text-5xl"
           initial={{
             opacity: 0,
             scale: 0,

@@ -21,32 +21,29 @@
 }
 
 @layer utilities {
-  .animate-gradient {
-    animation: gradient 30s ease infinite;
-    transform-origin: center;
-  }
-
   .morph-blob {
-    animation: morph 20s ease infinite;
+    animation:
+      morph 15s ease infinite,
+      moveGradient 30s ease-in-out infinite;
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     transition: all 1s ease-in-out;
   }
 
-  @keyframes gradient {
+  @keyframes moveGradient {
     0% {
-      transform: translate(-100%, -100%) scale(0.9);
+      transform: translate(-25%, -25%) rotate(0deg);
     }
     25% {
-      transform: translate(100%, -100%) scale(1.1);
+      transform: translate(25%, -25%) rotate(90deg);
     }
     50% {
-      transform: translate(100%, 100%) scale(0.95);
+      transform: translate(25%, 25%) rotate(180deg);
     }
     75% {
-      transform: translate(-100%, 100%) scale(1.05);
+      transform: translate(-25%, 25%) rotate(270deg);
     }
     100% {
-      transform: translate(-100%, -100%) scale(0.9);
+      transform: translate(-25%, -25%) rotate(360deg);
     }
   }
 
