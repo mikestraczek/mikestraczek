@@ -23,7 +23,7 @@ export default function Home() {
   }, [cursorX, cursorY]);
 
   return (
-    <main className="relative h-screen p-4 font-[family-name:var(--font-geist-sans)]">
+    <main className="relative h-[100dvh] p-3 font-[family-name:var(--font-geist-sans)]">
       <m.div
         className="pointer-events-none fixed z-50 h-12 w-12 rounded-full border border-white/20"
         style={{
@@ -31,7 +31,7 @@ export default function Home() {
           y: cursorYSpring,
         }}
       />
-      <div className="relative flex h-full w-full items-center justify-center overflow-hidden rounded-[2rem] bg-slate-950/90 text-slate-50">
+      <div className="relative flex h-full w-full items-center justify-center overflow-hidden rounded-xl bg-slate-950/90 text-slate-50">
         <ParticleBackground />
 
         <div
