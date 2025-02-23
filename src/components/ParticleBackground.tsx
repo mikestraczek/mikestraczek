@@ -59,8 +59,8 @@ export const ParticleBackground = () => {
       <Canvas
         className="h-full w-full"
         camera={{
-          position: [0, 0, isMobile ? 10 : 5],
-          fov: isMobile ? 45 : 75,
+          position: [0, 0, isMobile ? 5 : 3],
+          fov: isMobile ? 20 : 75,
         }}
         gl={{
           alpha: true,

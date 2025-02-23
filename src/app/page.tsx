@@ -49,13 +49,13 @@ export default function Home() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 0.6 }}
             transition={{ delay: 0.5 }}
-            className="mb-4 text-sm text-slate-400"
+            className="mb-4 font-mono text-sm text-slate-400"
           >
             Frontend Developer
           </m.p>
 
           <m.h1
-            className="text-2xl font-black text-white/90 mix-blend-exclusion sm:text-4xl lg:text-5xl"
+            className="text-3xl font-black text-white/90 mix-blend-exclusion sm:text-6xl lg:text-8xl"
             initial={{
               opacity: 0,
               scale: 0,
@@ -75,7 +75,7 @@ export default function Home() {
             href="https://github.com/mikestraczek"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-slate-400 transition-colors duration-300 hover:text-slate-200"
+            className="font-mono text-sm text-slate-400 transition-colors duration-300 hover:text-slate-200"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
           >
@@ -86,7 +86,7 @@ export default function Home() {
             href="https://www.linkedin.com/in/mike-straczek-26b842187/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-slate-400 transition-colors duration-300 hover:text-slate-200"
+            className="font-mono text-sm text-slate-400 transition-colors duration-300 hover:text-slate-200"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
           >
